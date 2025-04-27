@@ -6,7 +6,6 @@ document.getElementById("changeImg").addEventListener("click", function() {
     document.getElementById("image").src = "https://picsum.photos/500/350?random=" + Math.floor(Math.random()*100);
 });
 
-// Автоматична зміна картинки кожні 3 секунди
 setInterval(function() {
     document.getElementById("image").src = "https://picsum.photos/500/350?random=" + Math.floor(Math.random()*100);
 }, 3000);
