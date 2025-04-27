@@ -1,73 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
-
 body {
-    font-family: 'Orbitron', sans-serif;
+    font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #0f0f0f;
-    color: #00ffea;
+    background-color: #f4f4f4;
+    color: #333;
     padding: 20px;
 }
 
 h1 {
-    font-size: 28px;
-    text-transform: uppercase;
-    color: #ff007f;
-    text-shadow: 0px 0px 10px #ff007f;
+    font-size: 24px;
+    color: #555;
 }
 
-.container {
-    background: rgba(255, 255, 255, 0.1);
+main {
+    background: #ffffff;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 15px #ff007f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
     width: 60%;
 }
 
-.cyber-button {
-    padding: 15px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    border: 2px solid #ff007f;
-    background: transparent;
-    color: #ff007f;
+.simple-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background: #007bff;
+    color: white;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 5px;
     transition: 0.3s ease-in-out;
 }
 
-.cyber-button:hover {
-    background: #ff007f;
-    color: white;
-    box-shadow: 0px 0px 10px #ff007f;
+.simple-button:hover {
+    background: #0056b3;
 }
 
-.cyber-link {
-    color: #00ffea;
+.simple-link {
+    color: #007bff;
     text-decoration: none;
     font-weight: bold;
-    border-bottom: 2px solid #00ffea;
-    transition: 0.3s ease-in-out;
-}
-
-.cyber-link:hover {
-    color: white;
-    border-bottom: 2px solid white;
 }
 
 img {
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px #00ffea;
+    border-radius: 10px;
     width: 300px;
-    transition: 0.3s ease-in-out;
-}
-
-img:hover {
-    box-shadow: 0px 0px 30px #ff007f;
-}
-
-footer {
-    margin-top: 30px;
-    font-size: 14px;
-    color: #888;
 }
