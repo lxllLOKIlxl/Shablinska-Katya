@@ -3,29 +3,35 @@
 body {
     font-family: 'Orbitron', sans-serif;
     text-align: center;
-    background: linear-gradient(45deg, #0f0f0f, #1a1a1a, #242424);
+    background: linear-gradient(270deg, #0f0f0f, #1a1a1a, #242424);
     color: #00ffea;
     padding: 20px;
+    animation: gradientAnimation 5s infinite alternate;
+}
+
+@keyframes gradientAnimation {
+    0% { background: linear-gradient(270deg, #0f0f0f, #1a1a1a); }
+    100% { background: linear-gradient(270deg, #242424, #0f0f0f); }
 }
 
 h1 {
     font-size: 36px;
     color: #ff007f;
-    text-shadow: 0px 0px 10px #ff007f;
+    text-shadow: 0px 0px 15px #ff007f;
 }
 
 main {
     background: rgba(255, 255, 255, 0.1);
     padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 15px rgba(255, 0, 127, 0.8);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(255, 0, 127, 0.8);
     display: block;
     width: 90%;
     max-width: 1200px;
     margin: auto;
 }
 
-.simple-button {
+.neon-button {
     padding: 15px 25px;
     font-size: 20px;
     border: 2px solid #ff007f;
@@ -34,15 +40,16 @@ main {
     cursor: pointer;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 15px #ff007f;
 }
 
-.simple-button:hover {
+.neon-button:hover {
     background: #ff007f;
     color: white;
-    box-shadow: 0px 0px 10px #ff007f;
+    box-shadow: 0px 0px 30px #ff007f;
 }
 
-.simple-link {
+.neon-link {
     color: #00ffea;
     text-decoration: none;
     font-size: 18px;
@@ -51,7 +58,7 @@ main {
     transition: 0.3s ease-in-out;
 }
 
-.simple-link:hover {
+.neon-link:hover {
     color: white;
     border-bottom: 2px solid white;
 }
@@ -61,18 +68,21 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    box-shadow: 0px 0px 25px #00ffea;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
 }
 
 img {
     border-radius: 20px;
     width: 500px;
     max-width: 100%;
-    box-shadow: 0px 0px 15px #00ffea;
+    box-shadow: 0px 0px 20px #00ffea;
     transition: 0.3s ease-in-out;
 }
 
 img:hover {
-    box-shadow: 0px 0px 30px #ff007f;
+    box-shadow: 0px 0px 35px #ff007f;
 }
 
 footer {
