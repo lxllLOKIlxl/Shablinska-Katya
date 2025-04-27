@@ -3,5 +3,5 @@ document.getElementById("changeBg").addEventListener("click", function() {
 });
 
 document.getElementById("changeImg").addEventListener("click", function() {
-    document.getElementById("image").src = "https://placebear.com/300/200";
+    document.getElementById("image").src = "https://placebear.com/500/350";
 });
